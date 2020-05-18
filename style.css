@@ -1,0 +1,241 @@
+body {
+	background-color:		#ffffff;
+	font-family: 			'Georgia', serif;
+	margin:					0 0 180px; /* bottom = footer height */
+	min-height:				500px;
+	overflow:				scroll;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#shnap {
+width: 946px;
+height: 65px;
+margin: 0 auto;
+position: relative;
+z-index: 999;
+}
+
+/* Colorado School of Mines header CSS*/
+#shnap {width:946px;height:65px;margin:0 auto 1em;position:relative;z-index:999;}
+#landingtopy {display:block;width:946px;height:65px;background:url(images/landing-top.png) no-repeat 0 0;margin:-6px 0 0 -50px;padding:15px 50px 0 65px;z-index:50;overflow:hidden;position:relative;}
+.minesLogo{float:left;}
+#hcRight {float:right;width:400px;font-size:11px;color:#425262;padding-right:15px;}
+#hcRight a {color:#b03514;}
+#hcRight span {display:block;text-align:right;}
+#hcRight span a {text-decoration:underline !important;}
+#hcRight span a:hover {text-decoration:none !important;}
+#hcRight form {margin:0;padding:0;}
+#hcRight ul {list-style:none;margin:0;padding:0 0 3px;}
+#hcRight li {display:inline;font-size:10px;padding:0 5px;margin:0;border-left:1px solid #6b7b8b;float:left;}
+.hcrFirst {padding-left:0 !important;border:0 none !important;}
+#hcRight li a {color:#6b7b8b !important;padding:0;text-decoration:underline !important;}
+#hcRight li a:hover {text-decoration:none !important;}
+.searchText {border:1px solid #6b7b8b;color:#6b7b8b;margin:0;padding:1px 3px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:9px;width:94px;margin:-2px 5px 0 3px;}
+.searchBtn {margin:-5px 0 0;padding:1px 2px;background-color:#6b7b8b;color:#fff;font-size:12px;font-family:Verdana, Arial, Helvetica, sans-serif;border:0 none;}
+#hcRight .noB {border:0 none !important;margin:0;padding:0;}
+#content ol {margin:0;padding:0 0 10px 37px;}
+#content ul li {background:url(../img/li_bg.gif) no-repeat 0 7px;padding:0 0 0 10px;margin:0;}
+
+#bar{
+	height: 				60px;
+}
+
+	header {
+		margin: 				0 auto;
+		width: 					40%;
+		min-width:				650px;
+	}
+	
+	#logo {
+		float: 					left;
+		margin-right: 			10px;
+	}
+
+	nav {
+		margin:					0 auto;
+		color: 					#21314D;
+		overflow: 				hidden;
+		font-size: 				90%;
+
+	}
+		
+		nav >ul > li > a {
+			display:				block;
+			width:					85px;
+			height: 				30px;
+			padding: 				10px 15px 0;
+			margin: 				20px 0 0 0;
+			text-decoration: 		none;
+			color: 					inherit;
+			border-right: 			1px dashed #9ac6be;
+			text-align: 			center;
+		}
+		
+		nav > ul > li:first-child > a {
+			border-left: 			1px dashed #9ac6be;
+		}
+		
+		nav > ul > li {
+			float: 					left;
+		}
+			
+			nav > ul > li > a:hover {
+				color: 					#0076a4;
+				text-shadow: 			0 0 10px white;
+			}
+ 
+#floater {
+	position:				relative;
+	float:					left;
+	width:					1px;
+	height: 				200px;
+}
+ 
+#centered {
+	position:				relative;
+	clear:					left;
+	height:					225px;
+	width:					350px;
+	margin:					0 auto;
+	padding-bottom: 		1em;
+}
+ 
+#splash {
+	position:absolute; right:0; top:0; bottom:0;
+	overflow:				auto;
+	padding:				10px;
+	text-align:				justify;
+	line-height:			2em;
+	width:					350px;
+	margin:					0 auto;
+	padding-bottom: 		1em;
+}	
+
+	#splash h1{
+		text-align:				center;
+		font-size: 				150%;
+		line-height:			1.6em;
+	}
+	
+	#splash h2{
+		text-align:				center;
+		line-height:			2em;
+	}
+	
+#text {
+	position:				relative;
+	clear:					left;
+	overflow:				auto;
+	text-align:				block;
+	line-height:			2em;
+	margin:					0 auto;
+	width: 					700px;
+	font-size:				12px;
+}	
+
+	#text h1{
+		text-align:				left;
+		font-size: 				150%;
+	}
+	
+	#text h2{
+		font-size:				120%;
+		text-align:				left;
+		line-height:			2em;
+	}
+	
+	#text p {
+		padding-bottom:			1em;
+	}
+
+	#text  dl {
+		width:					325px;
+		float:					left;
+		padding-right:			2em;
+		padding-bottom:			1em;
+	}
+	
+	#text dl h3 {
+		text-align:				center;
+	}
+	#text dd {
+		padding-left:			1em;
+	}
+
+#pictures {
+	position:				relative;
+	clear:					left;
+	overflow:				auto;
+	text-align: 			center;
+	padding-bottom:			2em;
+	width:					700px;
+	margin:					0 auto;
+}
+	#pictures h1{
+		text-align:				left;
+		font-size: 				150%;
+	}
+	
+	#pictures h2{
+		text-align:				left;
+		font-size: 				120%;
+	}
+
+#bottom {
+	position:absolute;
+	bottom:0; right:0;
+}
+
+footer {
+    position: absolute; left: 0;bottom: 0;
+    height: 				180px;
+    width: 					100%;
+	min-width:				700px;
+	background-color:		#CED5DD;
+	font-family:			sans-serif;
+	font-size:				90%;
+}
+
+	#fnav {
+		margin: 				1em auto;
+		width: 					450px;
+		list-style:				none;
+	}
+		
+		#fnav a {
+			text-decoration:		none;
+			color:					inherit;
+		}
+		
+		#fnav a:hover {
+			text-decoration:		underline;
+		}
+		
+		#fnav > li {
+			float:					left;
+			padding-right: 			2em;
+		}
+		
+		#fnav > li > h2 {
+			font-size:				120%;
+			line-height:			1.5em;
+		}
+		
+		#fnav > li > ul {
+			list-style: 			none;
+		}
+		
+		#fnav > li > ul > li {
+			padding: 				.3em 0;
+		}
+		
+	footer p {
+		padding-top:		1em;
+		clear: 				both;
+		text-align: 		center;
+		font-size:			70%;
+	}
